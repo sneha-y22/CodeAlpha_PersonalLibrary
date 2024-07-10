@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CodeAlpha_PersonalLibrary/static/css/main.470b7903.css",
-    "main.js": "/CodeAlpha_PersonalLibrary/static/js/main.06053338.js",
+    "main.js": "/CodeAlpha_PersonalLibrary/static/js/main.cd314a76.js",
     "static/js/453.1254ac02.chunk.js": "/CodeAlpha_PersonalLibrary/static/js/453.1254ac02.chunk.js",
     "index.html": "/CodeAlpha_PersonalLibrary/index.html",
     "main.470b7903.css.map": "/CodeAlpha_PersonalLibrary/static/css/main.470b7903.css.map",
-    "main.06053338.js.map": "/CodeAlpha_PersonalLibrary/static/js/main.06053338.js.map",
+    "main.cd314a76.js.map": "/CodeAlpha_PersonalLibrary/static/js/main.cd314a76.js.map",
     "453.1254ac02.chunk.js.map": "/CodeAlpha_PersonalLibrary/static/js/453.1254ac02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.470b7903.css",
-    "static/js/main.06053338.js"
+    "static/js/main.cd314a76.js"
   ]
 }
