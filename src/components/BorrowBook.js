@@ -10,7 +10,7 @@ const BorrowBook = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/books')
+    axios.get('http://localhost:2000/books')
       .then(response => {
         setBooks(response.data);
       })
@@ -24,7 +24,7 @@ const BorrowBook = () => {
     const formattedBorrowDate = new Date(borrowDate).toISOString().slice(0, 10); // Extracts YYYY-MM-DD
     const formattedReturnDate = returnDate ? new Date(returnDate).toISOString().slice(0, 10) : null;
   
-    axios.post('http://localhost:5000/borrow', {
+    axios.post('http://localhost:2000/borrow', {
       book_id: bookId,
       borrowed_by: borrowedBy,
       borrow_date: formattedBorrowDate,

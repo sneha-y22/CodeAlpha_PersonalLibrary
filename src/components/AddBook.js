@@ -11,14 +11,14 @@ const AddBook = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:5000/categories')
+    axios.get('http://localhost:2000/categories')
       .then(response => setCategories(response.data))
       .catch(error => console.log(error));
   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/books', { title, author })
+    axios.post('http://localhost:2000/books', { title, author })
       .then((response) => {
         navigate('/');
       })

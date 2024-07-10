@@ -6,7 +6,7 @@ const BorrowHistory = () => {
   const [history, setHistory] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/borrow-history')
+    axios.get('http://localhost:2000/borrow-history')
       .then(response => {
         setHistory(response.data);
       })
